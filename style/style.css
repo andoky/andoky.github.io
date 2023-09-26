@@ -133,15 +133,31 @@ svg{
   color: #000;
   font-size: 16px;
 }
-/* style.css */
-footer {
-   background-color: #333; /* Ganti dengan warna latar belakang yang Anda inginkan */
-   color: #fff; /* Ganti dengan warna teks yang Anda inginkan */
-   text-align: center;
-   padding: 10px 0; /* Sesuaikan padding sesuai kebutuhan Anda */
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: auto;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+
 }
 
-footer p {
-   margin: 0; /* Hapus margin default yang mungkin ada pada elemen 'p' dalam footer */
-   font-size: 14px; /* Sesuaikan ukuran teks sesuai kebutuhan Anda */
+.copyright_text {
+    width: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyright_text a {
+    color: #ffffff;
+	text-decoration: none;
+	
+}
+
+.copyright_text a:hover {
+    color: #363636;
 }
